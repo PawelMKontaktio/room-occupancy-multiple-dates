@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #333;
+    color: wheat;
+}
+
+form {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form button {
+    display: block;
+    width: 100px;
+    width: 100%;
+    background-color: wheat;
+    box-shadow: none;
+    border: 1px solid black;
+}
+
+form input {
+    background-color: wheat;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0;
+    border: none;
+    text-align: center;
+}
+
+#general-table {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#general-hours {
+    width: 50%;
+    float: left;
+}
+
+#general-hours div {
+    height: 22px;
+    width: 100%;
+}
+
+#general-values {
+    width: 50%;
+    float: left;
+}
+
+#general-values div {
+    height: 22px;
+    width: 100%;
+}
+
+#form-today {
+    width: 33%;
+    float: left
+}
+
+#form-yesterday {
+    width: 33%;
+    float: left
+}
+
+#form-date-pick {
+    display: block;
+    box-sizing: border-box;
+    width: 33%;
+    box-shadow: none;
+    border: none;
+    padding: none;
+    font-size: 15px;
+}
+
+.width50procent {
+    width: 50%;
+    float: left;
+}
+
+#form-output {
+    display: block;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #fff;
+}
+
+.glow-button {
+    background-color: white;
+    border: 0px solid white;
+    box-shadow: 0 0px 2px rgb(255, 255, 255);
+}
+
+#download {
+    display: none;
+}

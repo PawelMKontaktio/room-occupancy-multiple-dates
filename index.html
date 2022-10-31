@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form>
+        <label>startDate:</label>
+        <input type="date" id="form-startDate">
+        <label>endDate:</label>
+        <input type="date" id="form-endDate">
+        <label>roomId:</label>
+        <input type="text" id="form-roomId">
+        <label for="text">apiKey:</label>
+        <input type="text" id="form-apiKey">
+        <label id="form-output">Output format:</label>
+        <button type="button" class="width50procent" id="form-output-grouped">Grouped</button>
+        <button type="button" class="width50procent" id="form-output-5min">5 Min Granulation</button>
+        <button type="button" id="form-send">Send</button>
+        <button id="download" onclick="download_csv_file()">DOWNLOAD</button>
+    </form>
+
+    <div id="info"> </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
